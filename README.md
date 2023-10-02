@@ -1,5 +1,7 @@
 # Replit Template for Vue 3 + TypeScript + Vite + Vue Apollo + json-graphql-server
 
+![](./cover.png "Repo Sample Cover")
+
 - [繁體中文](./README.zh-TW.md)
 
 This template is designed to provide a straightforward way for you to build frontend interfaces using Vue and GraphQL,

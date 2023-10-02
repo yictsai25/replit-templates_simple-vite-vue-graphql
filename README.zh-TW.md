@@ -1,5 +1,7 @@
 # Replit Template for Vue 3 + TypeScript + Vite + Vue Apollo + json-graphql-server
 
+![](./cover.png "Repo Sample Cover")
+
 這個模板旨在提供一個簡單的方法，讓你使用 Vue 和 GraphQL 構建前端界面，並使用 `json-graphql-server` 作為簡易的後端 API。
 
 ## 特色
