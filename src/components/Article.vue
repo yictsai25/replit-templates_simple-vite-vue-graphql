@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { toRefs } from 'vue';
+import ArticleHeader from '@/components/ArticleHeader.vue';
 
 const props = defineProps<{
   post: {
@@ -21,6 +22,7 @@ const { post } = toRefs(props);
 <template>
   <article class="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700"
            post="">
+    <ArticleHeader :tags="post.tags" :date="post.date"/>
     <h2 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">{{
         post.title
       }}</a></h2>
